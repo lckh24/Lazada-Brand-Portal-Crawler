@@ -1,17 +1,16 @@
 # 🛒 Lazada Brand Portal Crawling – Automated Sales Data Retrieval  
-
-📌 Overview  
+## 📌 Overview  
 
 This script automates the extraction of daily sales reports from Lazada's Brand Portal for multiple sellers across different countries. It efficiently processes and renames downloaded files using a predefined mapping while optimizing performance with multi-threading. Additionally, the script retrieves revenue details via external APIs to enhance data accuracy.  
 
-🛠️ Key Features  
+## 🛠️ Key Features  
 
 ✅ Automated Data Crawling – Fetches sales data for multiple sellers across different regions.  
 ✅ Multi-threading for Speed – Uses concurrent execution to improve performance.  
 ✅ API-Integrated Revenue Retrieval – Fetches revenue details dynamically from external APIs.  
 ✅ File Processing & Renaming – Reads, processes, and renames files based on a structured mapping.  
 
-🔧 Dependencies  
+## 🔧 Dependencies  
 
 datetime – Manages date calculations for data retrieval.  
 concurrent.futures – Implements multi-threading for faster execution.  
@@ -20,7 +19,7 @@ requests – Sends API requests to fetch sales data.
 os – Manages file operations (reading, writing, renaming).  
 sys – Handles command-line arguments.  
 
-🚀 How to Use  
+## 🚀 How to Use  
 
 1️⃣ Login to the Lazada Brand Portal and access seller data.  
 2️⃣ Extract Cookies from your browser's Developer Tools (DevTools).  
